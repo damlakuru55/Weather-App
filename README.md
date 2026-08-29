@@ -1,3 +1,3 @@
-Weather-App
+# weather-app
   
-   coded with javascript
+  coded with javascript
