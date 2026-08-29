@@ -1,2 +1,2 @@
 # Weather-App
-   coded with JavaScript
+                  coded with JavaScript
