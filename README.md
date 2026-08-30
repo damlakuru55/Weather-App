@@ -16,6 +16,10 @@ A weather application designed to display weather information through a simple a
 * CSS3
 * JavaScript
 
+## Error Handling
+
+The interface should provide a visible message when a location cannot be found, a request fails, or weather data is unavailable.
+
 ## Purpose
 
 This project was created to practice API integration, asynchronous JavaScript, and dynamic data rendering.
