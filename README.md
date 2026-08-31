@@ -9,10 +9,20 @@ A weather application designed to display weather information through a simple a
 * Clean weather dashboard
 * Responsive layout
 * User-friendly interface
+* Clear loading feedback
+* Accessible search controls
 
 ## Request States
 
 The interface should distinguish loading, successful results, invalid locations, failed requests, and unavailable weather data so users always receive clear feedback.
+
+## Error Handling
+
+The interface should provide a visible message when a location cannot be found, a request fails, or weather data is unavailable. Previous results should not be presented as fresh data while a new request is pending.
+
+## Accessibility
+
+Search controls should have descriptive labels and visible focus states. Weather results should expose meaningful status text so users can understand loading and error states.
 
 ## Technologies
 
@@ -20,13 +30,9 @@ The interface should distinguish loading, successful results, invalid locations,
 * CSS3
 * JavaScript
 
-## Error Handling
-
-The interface should provide a visible message when a location cannot be found, a request fails, or weather data is unavailable.
-
 ## Purpose
 
-This project was created to practice API integration, asynchronous JavaScript, and dynamic data rendering.
+This project was created to practice API integration, asynchronous JavaScript, dynamic data rendering, validation, and responsive UI development.
 
 ## License
 
