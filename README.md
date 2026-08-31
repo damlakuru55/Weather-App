@@ -20,6 +20,10 @@ The interface should distinguish loading, successful results, invalid locations,
 
 The interface should provide a visible message when a location cannot be found, a request fails, or weather data is unavailable. Previous results should not be presented as fresh data while a new request is pending.
 
+## Refresh Behavior
+
+A new weather request should show a loading state, disable duplicate actions when appropriate, and replace the displayed result only after the new response has been validated.
+
 ## Accessibility
 
 Search controls should have descriptive labels and visible focus states. Weather results should expose meaningful status text so users can understand loading and error states.
@@ -32,7 +36,7 @@ Search controls should have descriptive labels and visible focus states. Weather
 
 ## Purpose
 
-This project was created to practice API integration, asynchronous JavaScript, dynamic data rendering, validation, and responsive UI development.
+This project was created to practice API integration, asynchronous JavaScript, dynamic data rendering, validation, refresh handling, and responsive UI development.
 
 ## License
 
