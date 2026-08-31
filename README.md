@@ -10,6 +10,10 @@ A weather application designed to display weather information through a simple a
 * Responsive layout
 * User-friendly interface
 
+## Request States
+
+The interface should distinguish loading, successful results, invalid locations, failed requests, and unavailable weather data so users always receive clear feedback.
+
 ## Technologies
 
 * HTML5
