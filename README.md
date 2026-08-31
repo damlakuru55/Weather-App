@@ -55,3 +55,7 @@ The interface keeps state changes explicit and predictable. User input should be
 ## Development Notes
 
 Weather results should distinguish loading, success, and error states so an unavailable request never leaves stale weather information presented as current.
+
+## Release Check
+
+Weather refresh behavior should always communicate whether the latest request succeeded or failed.
