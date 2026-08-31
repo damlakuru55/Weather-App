@@ -28,6 +28,10 @@ A new weather request should show a loading state, disable duplicate actions whe
 
 Search controls should have descriptive labels and visible focus states. Weather results should expose meaningful status text so users can understand loading and error states.
 
+## Data Freshness
+
+Weather values should be associated with the latest successful request. If a refresh fails, the interface should make it clear that the previously displayed information may be stale.
+
 ## Technologies
 
 * HTML5
