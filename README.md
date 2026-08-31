@@ -46,16 +46,14 @@ This project was created to practice API integration, asynchronous JavaScript, d
 
 This project is open source and available under the MIT License.
 
-
 ## Development Notes
 
 The interface keeps state changes explicit and predictable. User input should be validated before processing, successful actions should update visible state immediately, and invalid states should provide clear feedback.
 
-
-## Development Notes
+## Release Check
 
 Weather results should distinguish loading, success, and error states so an unavailable request never leaves stale weather information presented as current.
 
-## Release Check
+## Final Review
 
 Weather refresh behavior should always communicate whether the latest request succeeded or failed.
