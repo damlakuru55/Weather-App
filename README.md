@@ -57,3 +57,7 @@ Weather results should distinguish loading, success, and error states so an unav
 ## Final Review
 
 Weather refresh behavior should always communicate whether the latest request succeeded or failed.
+
+## Maintenance Notes
+
+Keep location input, request state, and weather rendering separated so future forecast features can be added without coupling unrelated UI logic.
